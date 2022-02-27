@@ -40,7 +40,7 @@ var vlSpec = {
       "bandPaddingInner": 0,
       "bandPaddingOuter": 0
     },
-    "view": {"step": 40},
+    "view": {"step": 15},
     "range": {
       "ramp": {
         "scheme": "yellowgreenblue"
