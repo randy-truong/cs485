@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Vega-Lite Bar Chart</title>
+    <title>CS 485: DESIGN SPRINT 2</title>
     <meta charset="utf-8" />
 
     <script src="https://cdn.jsdelivr.net/npm/vega@5.21.0"></script>
@@ -16,43 +16,8 @@
     </style>
   </head>
   <body>
-    <h1>Template for Embedding Vega-Lite Visualization</h1>
+    <h1>DESIGN FOR UNDERSTANDING</h1>
     <!-- Container for the visualization -->
-    <div id="vis"></div>
-
-    <script>
-      // Assign the specification to a local variable vlSpec.
-      var vlSpec = {
-        $schema: 'https://vega.github.io/schema/vega-lite/v5.json',
-        data: {
-          values: [
-            {a: 'C', b: 2},
-            {a: 'C', b: 7},
-            {a: 'C', b: 4},
-            {a: 'D', b: 1},
-            {a: 'D', b: 2},
-            {a: 'D', b: 6},
-            {a: 'E', b: 8},
-            {a: 'E', b: 4},
-            {a: 'E', b: 7}
-          ]
-        },
-        mark: 'bar',
-        encoding: {
-          y: {field: 'a', type: 'nominal'},
-          x: {
-            aggregate: 'average',
-            field: 'b',
-            type: 'quantitative',
-            axis: {
-              title: 'Average of b'
-            }
-          }
-        }
-      };
-
-      // Embed the visualization in the container with id `vis`
-      vegaEmbed('#vis', vlSpec);
-    </script>
+    <div id="randy"></div>
   </body>
 </html>
