@@ -9,7 +9,7 @@ var vlSpec = {
           {"filter": "datum.DATE === toString('2019-01')"}
         ],
         "title": "Monthly Traveler Mobility Between States",
-        "mark": "rect",
+        "mark": {"type": "rect"},
         "encoding": {
           "x": {
             "type": "nominal",
@@ -33,6 +33,10 @@ var vlSpec = {
               "gradientLength": 120
             }
           },
+          "tooltip": [
+            {"field": "ORIGIN_STATE_NM", "type": "nominal", "title": "Origin"},
+            {"field": "DEST_STATE_NM", "type": "nominal", "title": "Destination"}, {"field": "PASSENGERS", "type": "quantitative", "title": "Traveler Count"}
+          ],
           "opacity": {
             "condition": {"param": "pts", "value": 1},
             "value": 0.2
@@ -53,6 +57,7 @@ var vlSpec = {
       "encoding": {
         "x": {"field": "ORIGIN_STATE_NM", "type": "nominal", "title": "Origin State"},
         "y": {"field": "PASSENGERS", "type": "quantitative", "title": "Number of Travelers"},
+        "tooltip": {"field": "PASSENGERS", "type": "quantitative"},
         "color": {
           "condition": {
             "param": "pts",
