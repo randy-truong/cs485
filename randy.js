@@ -2696,3 +2696,255 @@ vegaEmbed('#randy32', vlSpec32);
 vegaEmbed('#randy33', vlSpec33);
 vegaEmbed('#randy34', vlSpec34);
 vegaEmbed('#randy35', vlSpec35);
+
+
+$(document).ready(function() {
+        $('#myRange').on('input', function() {
+          if (this.value == 1) {
+            $('#randy1').show();
+            $('#date1').show();
+          } else {
+            $('#randy1').hide();
+            $('#date1').hide();
+          }
+          if (this.value == 2) {
+            $('#randy2').show();
+            $('#date2').show();
+          } else {
+            $('#randy2').hide();
+            $('#date2').hide();
+          }
+          if (this.value == 3) {
+            $('#randy3').show();
+            $('#date3').show();
+          } else {
+            $('#randy3').hide();
+            $('#date3').hide();
+          }
+          if (this.value == 4) {
+            $('#randy4').show();
+            $('#date4').show();
+          } else {
+            $('#randy4').hide();
+            $('#date4').hide();
+          }
+          if (this.value == 5) {
+            $('#randy5').show();
+            $('#date5').show();
+          } else {
+            $('#randy5').hide();
+            $('#date5').hide();
+          }
+          if (this.value == 6) {
+            $('#randy6').show();
+            $('#date6').show();
+          } else {
+            $('#randy6').hide();
+            $('#date6').hide();
+          }
+          if (this.value == 7) {
+            $('#randy7').show();
+            $('#date7').show();
+          } else {
+            $('#randy7').hide();
+            $('#date7').hide();
+          }
+          if (this.value == 8) {
+            $('#randy8').show();
+            $('#date8').show();
+          } else {
+            $('#randy8').hide();
+            $('#date8').hide();
+          }
+          if (this.value == 9) {
+            $('#randy9').show();
+            $('#date9').show();
+          } else {
+            $('#randy9').hide();
+            $('#date9').hide();
+          }
+          if (this.value == 10) {
+            $('#randy10').show();
+            $('#date10').show();
+          } else {
+            $('#randy10').hide();
+            $('#date10').hide();
+          }
+          if (this.value == 11) {
+            $('#randy11').show();
+            $('#date11').show();
+          } else {
+            $('#randy11').hide();
+            $('#date11').hide();
+          }
+          if (this.value == 12) {
+            $('#randy12').show();
+            $('#date12').show();
+          } else {
+            $('#randy12').hide();
+            $('#date12').hide();
+          }
+          if (this.value == 13) {
+            $('#randy13').show();
+            $('#date13').show();
+          } else {
+            $('#randy13').hide();
+            $('#date13').hide();
+          }
+          if (this.value == 14) {
+            $('#randy14').show();
+            $('#date14').show();
+          } else {
+            $('#randy14').hide();
+            $('#date14').hide();
+          }
+          if (this.value == 15) {
+            $('#randy15').show();
+            $('#date15').show();
+          } else {
+            $('#randy15').hide();
+            $('#date15').hide();
+          }
+          if (this.value == 16) {
+            $('#randy16').show();
+            $('#date16').show();
+          } else {
+            $('#randy16').hide();
+            $('#date16').hide();
+          }
+          if (this.value == 17) {
+            $('#randy17').show();
+            $('#date17').show();
+          } else {
+            $('#randy17').hide();
+            $('#date17').hide();
+          }
+          if (this.value == 18) {
+            $('#randy18').show();
+            $('#date18').show();
+          } else {
+            $('#randy18').hide();
+            $('#date18').hide();
+          }
+          if (this.value == 19) {
+            $('#randy19').show();
+            $('#date19').show();
+          } else {
+            $('#randy19').hide();
+            $('#date19').hide();
+          }
+          if (this.value == 20) {
+            $('#randy20').show();
+            $('#date20').show();
+          } else {
+            $('#randy20').hide();
+            $('#date20').hide();
+          }
+          if (this.value == 21) {
+            $('#randy21').show();
+            $('#date21').show();
+          } else {
+            $('#randy21').hide();
+            $('#date21').hide();
+          }
+          if (this.value == 22) {
+            $('#randy22').show();
+            $('#date22').show();
+          } else {
+            $('#randy22').hide();
+            $('#date22').hide();
+          }
+          if (this.value == 23) {
+            $('#randy23').show();
+            $('#date23').show();
+          } else {
+            $('#randy23').hide();
+            $('#date23').hide();
+          }
+          if (this.value == 24) {
+            $('#randy24').show();
+            $('#date24').show();
+          } else {
+            $('#randy24').hide();
+            $('#date24').hide();
+          }
+          if (this.value == 25) {
+            $('#randy25').show();
+            $('#date25').show();
+          } else {
+            $('#randy25').hide();
+            $('#date25').hide();
+          }
+          if (this.value == 26) {
+            $('#randy26').show();
+            $('#date26').show();
+          } else {
+            $('#randy26').hide();
+            $('#date26').hide();
+          }
+          if (this.value == 27) {
+            $('#randy27').show();
+            $('#date27').show();
+          } else {
+            $('#randy27').hide();
+            $('#date27').hide();
+          }
+          if (this.value == 28) {
+            $('#randy28').show();
+            $('#date28').show();
+          } else {
+            $('#randy28').hide();
+            $('#date28').hide();
+          }
+          if (this.value == 29) {
+            $('#randy29').show();
+            $('#date29').show();
+          } else {
+            $('#randy29').hide();
+            $('#date29').hide();
+          }
+          if (this.value == 30) {
+            $('#randy30').show();
+            $('#date30').show();
+          } else {
+            $('#randy30').hide();
+            $('#date30').hide();
+          }
+          if (this.value == 31) {
+            $('#randy31').show();
+            $('#date31').show();
+          } else {
+            $('#randy31').hide();
+            $('#date31').hide();
+          }
+          if (this.value == 32) {
+            $('#randy32').show();
+            $('#date32').show();
+          } else {
+            $('#randy32').hide();
+            $('#date32').hide();
+          }
+          if (this.value == 33) {
+            $('#randy33').show();
+            $('#date33').show();
+          } else {
+            $('#randy33').hide();
+            $('#date33').hide();
+          }
+          if (this.value == 34) {
+            $('#randy34').show();
+            $('#date34').show();
+          } else {
+            $('#randy34').hide();
+            $('#date34').hide();
+          }
+          if (this.value == 35) {
+            $('#randy35').show();
+            $('#date35').show();
+          } else {
+            $('#randy35').hide();
+            $('#date35').hide();
+          }
+
+        });
+      });
