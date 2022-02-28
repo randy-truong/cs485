@@ -2,13 +2,13 @@ body {
   font-family:  'Roboto', sans-serif;
   font-size:  14px;
   text-align:  center;
-  width: 70%;
   margin:  auto;
   background-color: #f7f7f7;
 }
 
 div {
   text-align:  center;
+  margin:  auto;
 }
 
 h1 {

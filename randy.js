@@ -5,7 +5,7 @@ var vlSpec1 = {
   "transform": [
           {"filter": "datum.DATE === toString('2019-01')"}
         ],
-  "vconcat": [
+  "hconcat": [
     {
       "layer": [{
         "title": "Monthly Traveler Mobility Between States",
@@ -81,7 +81,7 @@ var vlSpec2 = {
   "transform": [
           {"filter": "datum.DATE === toString('2019-02')"}
         ],
-  "vconcat": [
+  "hconcat": [
     {
       "layer": [{
         "title": "Monthly Traveler Mobility Between States",
@@ -157,7 +157,7 @@ var vlSpec3 = {
   "transform": [
           {"filter": "datum.DATE === toString('2019-03')"}
         ],
-  "vconcat": [
+  "hconcat": [
     {
       "layer": [{
         "title": "Monthly Traveler Mobility Between States",
@@ -233,7 +233,7 @@ var vlSpec4 = {
   "transform": [
           {"filter": "datum.DATE === toString('2019-04')"}
         ],
-  "vconcat": [
+  "hconcat": [
     {
       "layer": [{
         "title": "Monthly Traveler Mobility Between States",
@@ -309,7 +309,7 @@ var vlSpec5 = {
   "transform": [
           {"filter": "datum.DATE === toString('2019-05')"}
         ],
-  "vconcat": [
+  "hconcat": [
     {
       "layer": [{
         "title": "Monthly Traveler Mobility Between States",
@@ -385,7 +385,7 @@ var vlSpec6 = {
   "transform": [
           {"filter": "datum.DATE === toString('2019-06')"}
         ],
-  "vconcat": [
+  "hconcat": [
     {
       "layer": [{
         "title": "Monthly Traveler Mobility Between States",
@@ -461,7 +461,7 @@ var vlSpec7 = {
   "transform": [
           {"filter": "datum.DATE === toString('2019-07')"}
         ],
-  "vconcat": [
+  "hconcat": [
     {
       "layer": [{
         "title": "Monthly Traveler Mobility Between States",
@@ -537,7 +537,7 @@ var vlSpec8 = {
   "transform": [
           {"filter": "datum.DATE === toString('2019-08')"}
         ],
-  "vconcat": [
+  "hconcat": [
     {
       "layer": [{
         "title": "Monthly Traveler Mobility Between States",
@@ -613,7 +613,7 @@ var vlSpec9 = {
   "transform": [
           {"filter": "datum.DATE === toString('2019-09')"}
         ],
-  "vconcat": [
+  "hconcat": [
     {
       "layer": [{
         "title": "Monthly Traveler Mobility Between States",
@@ -689,7 +689,7 @@ var vlSpec10 = {
   "transform": [
           {"filter": "datum.DATE === toString('2019-10')"}
         ],
-  "vconcat": [
+  "hconcat": [
     {
       "layer": [{
         "title": "Monthly Traveler Mobility Between States",
@@ -765,7 +765,7 @@ var vlSpec11 = {
   "transform": [
           {"filter": "datum.DATE === toString('2019-11')"}
         ],
-  "vconcat": [
+  "hconcat": [
     {
       "layer": [{
         "title": "Monthly Traveler Mobility Between States",
@@ -841,7 +841,7 @@ var vlSpec12 = {
   "transform": [
           {"filter": "datum.DATE === toString('2019-12')"}
         ],
-  "vconcat": [
+  "hconcat": [
     {
       "layer": [{
         "title": "Monthly Traveler Mobility Between States",
@@ -917,7 +917,7 @@ var vlSpec13 = {
   "transform": [
           {"filter": "datum.DATE === toString('2020-01')"}
         ],
-  "vconcat": [
+  "hconcat": [
     {
       "layer": [{
         "title": "Monthly Traveler Mobility Between States",
@@ -993,7 +993,7 @@ var vlSpec14 = {
   "transform": [
           {"filter": "datum.DATE === toString('2020-02')"}
         ],
-  "vconcat": [
+  "hconcat": [
     {
       "layer": [{
         "title": "Monthly Traveler Mobility Between States",
@@ -1069,7 +1069,7 @@ var vlSpec15 = {
   "transform": [
           {"filter": "datum.DATE === toString('2020-03')"}
         ],
-  "vconcat": [
+  "hconcat": [
     {
       "layer": [{
         "title": "Monthly Traveler Mobility Between States",
@@ -1145,7 +1145,7 @@ var vlSpec16 = {
   "transform": [
           {"filter": "datum.DATE === toString('2020-04')"}
         ],
-  "vconcat": [
+  "hconcat": [
     {
       "layer": [{
         "title": "Monthly Traveler Mobility Between States",
@@ -1221,7 +1221,7 @@ var vlSpec17 = {
   "transform": [
           {"filter": "datum.DATE === toString('2020-05')"}
         ],
-  "vconcat": [
+  "hconcat": [
     {
       "layer": [{
         "title": "Monthly Traveler Mobility Between States",
@@ -1297,7 +1297,7 @@ var vlSpec18 = {
   "transform": [
           {"filter": "datum.DATE === toString('2020-06')"}
         ],
-  "vconcat": [
+  "hconcat": [
     {
       "layer": [{
         "title": "Monthly Traveler Mobility Between States",
@@ -1373,7 +1373,7 @@ var vlSpec19 = {
   "transform": [
           {"filter": "datum.DATE === toString('2020-07')"}
         ],
-  "vconcat": [
+  "hconcat": [
     {
       "layer": [{
         "title": "Monthly Traveler Mobility Between States",
@@ -1449,7 +1449,7 @@ var vlSpec20 = {
   "transform": [
           {"filter": "datum.DATE === toString('2020-08')"}
         ],
-  "vconcat": [
+  "hconcat": [
     {
       "layer": [{
         "title": "Monthly Traveler Mobility Between States",
@@ -1525,7 +1525,7 @@ var vlSpec21 = {
   "transform": [
           {"filter": "datum.DATE === toString('2020-09')"}
         ],
-  "vconcat": [
+  "hconcat": [
     {
       "layer": [{
         "title": "Monthly Traveler Mobility Between States",
@@ -1601,7 +1601,7 @@ var vlSpec22 = {
   "transform": [
           {"filter": "datum.DATE === toString('2020-10')"}
         ],
-  "vconcat": [
+  "hconcat": [
     {
       "layer": [{
         "title": "Monthly Traveler Mobility Between States",
@@ -1677,7 +1677,7 @@ var vlSpec23 = {
   "transform": [
           {"filter": "datum.DATE === toString('2020-11')"}
         ],
-  "vconcat": [
+  "hconcat": [
     {
       "layer": [{
         "title": "Monthly Traveler Mobility Between States",
@@ -1753,7 +1753,7 @@ var vlSpec24 = {
   "transform": [
           {"filter": "datum.DATE === toString('2020-12')"}
         ],
-  "vconcat": [
+  "hconcat": [
     {
       "layer": [{
         "title": "Monthly Traveler Mobility Between States",
@@ -1829,7 +1829,7 @@ var vlSpec25 = {
   "transform": [
           {"filter": "datum.DATE === toString('2021-01')"}
         ],
-  "vconcat": [
+  "hconcat": [
     {
       "layer": [{
         "title": "Monthly Traveler Mobility Between States",
@@ -1905,7 +1905,7 @@ var vlSpec26 = {
   "transform": [
           {"filter": "datum.DATE === toString('2021-02')"}
         ],
-  "vconcat": [
+  "hconcat": [
     {
       "layer": [{
         "title": "Monthly Traveler Mobility Between States",
@@ -1981,7 +1981,7 @@ var vlSpec27 = {
   "transform": [
           {"filter": "datum.DATE === toString('2021-03')"}
         ],
-  "vconcat": [
+  "hconcat": [
     {
       "layer": [{
         "title": "Monthly Traveler Mobility Between States",
@@ -2057,7 +2057,7 @@ var vlSpec28 = {
   "transform": [
           {"filter": "datum.DATE === toString('2021-04')"}
         ],
-  "vconcat": [
+  "hconcat": [
     {
       "layer": [{
         "title": "Monthly Traveler Mobility Between States",
@@ -2133,7 +2133,7 @@ var vlSpec29 = {
   "transform": [
           {"filter": "datum.DATE === toString('2021-05')"}
         ],
-  "vconcat": [
+  "hconcat": [
     {
       "layer": [{
         "title": "Monthly Traveler Mobility Between States",
@@ -2209,7 +2209,7 @@ var vlSpec30 = {
   "transform": [
           {"filter": "datum.DATE === toString('2021-06')"}
         ],
-  "vconcat": [
+  "hconcat": [
     {
       "layer": [{
         "title": "Monthly Traveler Mobility Between States",
@@ -2285,7 +2285,7 @@ var vlSpec31 = {
   "transform": [
           {"filter": "datum.DATE === toString('2021-07')"}
         ],
-  "vconcat": [
+  "hconcat": [
     {
       "layer": [{
         "title": "Monthly Traveler Mobility Between States",
@@ -2361,7 +2361,7 @@ var vlSpec32 = {
   "transform": [
           {"filter": "datum.DATE === toString('2021-08')"}
         ],
-  "vconcat": [
+  "hconcat": [
     {
       "layer": [{
         "title": "Monthly Traveler Mobility Between States",
@@ -2437,7 +2437,7 @@ var vlSpec33 = {
   "transform": [
           {"filter": "datum.DATE === toString('2021-09')"}
         ],
-  "vconcat": [
+  "hconcat": [
     {
       "layer": [{
         "title": "Monthly Traveler Mobility Between States",
@@ -2513,7 +2513,7 @@ var vlSpec34 = {
   "transform": [
           {"filter": "datum.DATE === toString('2021-10')"}
         ],
-  "vconcat": [
+  "hconcat": [
     {
       "layer": [{
         "title": "Monthly Traveler Mobility Between States",
@@ -2589,7 +2589,7 @@ var vlSpec35 = {
   "transform": [
           {"filter": "datum.DATE === toString('2021-11')"}
         ],
-  "vconcat": [
+  "hconcat": [
     {
       "layer": [{
         "title": "Monthly Traveler Mobility Between States",
